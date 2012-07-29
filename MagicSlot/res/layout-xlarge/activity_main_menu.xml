@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainMenu" >
+    
+    <!-- XLARGE -->
+    <!-- logo -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="122dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/logo_l" />
+    
+    <!-- star button -->
+    <Button
+        android:id="@+id/b_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/b_star_l" />
+
+    <!-- help button -->
+    <Button
+        android:id="@+id/b_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignLeft="@+id/b_star"
+        android:background="@drawable/b_help_l" />
+
+    <!-- sound button -->
+    <Button
+        android:id="@+id/b_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b_star"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/b_sound_off_l" />
+    
+    <!-- play button -->
+    <Button
+        android:id="@+id/b_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button"
+        android:layout_below="@+id/b_sound"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/b_play_l" />
+    
+    <!-- play online button -->
+    <Button
+        android:id="@+id/b_play_online"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button"
+        android:layout_below="@+id/b_play"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/b_play_online_l" />
+    
+    <!-- specter int. button -->
+    <Button
+        android:id="@+id/b_specter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button"
+        android:layout_below="@+id/b_play_online"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/b_specter_l" />
+    
+    <!-- exit button -->
+    <Button
+        android:id="@+id/b_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button"
+        android:layout_below="@+id/b_specter"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/b_exit_l" />
+
+</RelativeLayout>

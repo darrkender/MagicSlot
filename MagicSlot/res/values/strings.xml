@@ -3,6 +3,10 @@
     <string name="app_name">MagicSlot</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="Bar1">Bar1</string>
+    <string name="Bar2">Bar2</string>
+    <string name="Bar3">Bar3</string>
 
 </resources>
